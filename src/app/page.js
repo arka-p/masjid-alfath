@@ -1,6 +1,8 @@
 import { FungsiMasjid } from "@/component/fungsiMasjid";
 import { Header } from "@/component/header";
 import { Card } from "@/component/card";
+import { VisiMisi } from "@/component/visiMisi";
+import { Footer } from "@/component/footer";
 
 export default function Home() {
   return (
@@ -31,7 +33,10 @@ export default function Home() {
           title="04. Baitul Muamallah​"
           description="Masjid Sebagai Baitul muamalah, Menjadikan masjid sebagai pusat ekonomi umat, sehingga umat muslim bisa saling berinteraksi sosial untuk saling menebarkan manfaat dengan memberikan kontribusi terbaik untuk umat manusia."
         />
+      
       </div>
+      <VisiMisi />
+      <Footer />
     </>
   );
 }

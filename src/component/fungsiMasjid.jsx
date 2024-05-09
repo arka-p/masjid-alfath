@@ -3,7 +3,7 @@ import Image from "next/image";
 export const FungsiMasjid = () => {
   return (
     <div>
-      <div className="flex w-full px-96 py-20 gap-10  bg-neutral-50">
+      <div className="flex w-full px-96 py-24 gap-10  bg-neutral-50">
         <div className="w-1/2">
           <Image src="/page/fotomasjid.webp" width={1000} height={0} />
         </div>

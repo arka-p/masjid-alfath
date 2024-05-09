@@ -1,35 +1,35 @@
+import Image from "next/image";
+
 export const VisiMisi = () => {
   return (
     <div>
-      <div className="flex w-full px-96 py-20 gap-10  bg-neutral-50">
+      <div className="flex w-full px-96 py-24 gap-10  bg-neutral-50">
         <div className="w-1/2 leading-normal">
-          <div className="text-4xl font-bold pb-4">4 Fungsi Masjid</div>
-          <div className="text-justify py-1">
-            <span className="italic">Allah Subhanahu Wa Ta’ala Berfirman </span>
-            “Sesungguhnya orang-orang yang selalu membaca Kitab Allah
-            (Al-Qur’an) dan melaksanakan sholat dan menginfakkan sebagian rezeki
-            yang Kami anugerahkan kepadanya dengan diam-diam dan
-            terang-terangan, mereka itu mengharapkan perdagangan yang tidak akan
-            rugi” <span className="italic">(QS. Fatir 35: Ayat 29)</span>
+          <div className="text-4xl font-bold pb-4">Visi & Misi Masjid Al-Fath</div>
+          <div className="w-full">
+             <div className="text-justify py-1 text-3xl">Visi :</div>
           </div>
           <div className="py-2">
-            Masjid Al-Fath Memulai Membangun peradaban dari masjid dengan
-            menjadikan masjid sebagai:
+            Masjid Al-Fath sebagai pusat dakwah Al-Quran dan Pemberdayaan Ummat
           </div>
-          <div className="flex gap-8 text-3xl">
+          <div className="text-justify py-1 text-3xl">Misi :</div>
+
+          <div className="flex gap-8 w-full">
             <div>
-              <li>Baitullah</li>
-              <li>Baitul Quran</li>
-            </div>
-            <div>
-              <li>Baitul Mal</li>
-              <li>Baitul Muamallah</li>
+              <li>Sebagai pusat belajar Al-Quran</li>
+              <li>Sebagai pusat dakwah & mencetak kader dakwah</li>
+              <li>Sebagai pusat pemberdayaan ummat</li>
+              <li>Menjadikan Masjid Makmur dengan berbagai kegiatan</li>
+              <li>Sebagai tempat rekreasi rohani jamaah</li>
+              <li>
+                Sebagai pusat kegiatan masyarakat dan tempat rujukan persoalan
+                masyarakat
+              </li>
             </div>
           </div>
         </div>
-
         <div className="w-1/2">
-          <Image src="/page/fotomasjid.webp" width={1000} height={0} />
+          <Image src="/page/visiMisi.webp" width={1000} height={0} />
         </div>
       </div>
     </div>

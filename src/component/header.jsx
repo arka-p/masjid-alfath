@@ -10,7 +10,7 @@ export const Header = () => {
         <ImageLogo />
       </div>
 
-      <div className="w-1/2 flex justify-center self-center gap-10">
+      <div className="w-1/2 flex justify-center self-center gap-14">
         <TextLink url="/" name="Home" />
         <TextLink url="/event" name="Event" />
         <TextLink url="/blogpost" name="Blog Post" />
