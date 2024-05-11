@@ -4,7 +4,7 @@ import { Button } from "./button";
 
 export const Header = () => {
   return (
-    <div className="flex w-full flex justify-start bg-white py-5 px-96 shadow-md sticky top-0">
+    <div className="flex w-screen flex justify-start bg-white py-5 px-96 shadow-md sticky top-0">
 
       <div className="w-1/4 self-center">
         <ImageLogo />
