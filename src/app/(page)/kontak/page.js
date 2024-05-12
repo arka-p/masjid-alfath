@@ -1,5 +1,5 @@
 export default function Kontak() {
   return (
-    <div>Kontak</div>
+    <div className="h-screen pt-96">Kontak</div>
   )
 }

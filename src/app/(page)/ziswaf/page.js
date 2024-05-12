@@ -1,5 +1,5 @@
 export default function Ziswaf() {
   return (
-    <div>Ziswaf</div>
+    <div className="h-screen pt-96">Ziswaf</div>
   )
 }

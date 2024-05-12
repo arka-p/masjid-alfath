@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <main>
       <Header />
-      <div className="h-screen flex justify-center items-center"> {children}</div>
+      <div className="h-full flex justify-center items-center"> {children}</div>
       <Footer />
     </main>
   );

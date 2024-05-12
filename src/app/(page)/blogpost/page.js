@@ -1,5 +1,5 @@
 export default function BlogPost() {
   return (
-    <div>BlogPost</div>
+    <div className="h-screen pt-96">BlogPost</div>
   )
 }

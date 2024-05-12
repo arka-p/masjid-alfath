@@ -1,5 +1,5 @@
 export default function Rekening() {
   return (
-    <div>baitulquran</div>
+    <div className="h-screen pt-96">baitulquran</div>
   )
 }
